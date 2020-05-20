@@ -1,5 +1,13 @@
 @import "reset.css";
 
+:root {
+    --odd-dark-color: #dbdbdb;
+    --odd-light-color: #e7e7e7;
+    --even-dark-color: #ececec;
+    --even-light-color: #f3f3f3;
+    font-family: sans-serif;
+}
+
 table {
     margin: 10px;
     border-radius: 10px;
