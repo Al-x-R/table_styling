@@ -62,3 +62,23 @@ thead th:first-child > div {
     font-size: 40px;
 }
 
+td:first-child {
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background: var(--odd-dark-color);
+}
+
+tbody tr:nth-child(odd) > td:nth-child(even) {
+    background: var(--odd-light-color);
+}
+
+tbody tr:nth-child(even) {
+    background: var(--even-dark-color);
+}
+
+tbody tr:nth-child(even) > td:nth-child(even) {
+    background: var(--even-light-color);
+}
+
