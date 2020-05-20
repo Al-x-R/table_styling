@@ -41,7 +41,6 @@ thead tr > th:nth-child(4) {
 
 thead tr > th:nth-child(5) {
     background-color: #061539;
-
 }
 
 .title th:first-child {
@@ -80,5 +79,28 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(even) > td:nth-child(even) {
     background: var(--even-light-color);
+}
+
+tfoot td:nth-child(odd) {
+    background: var(--odd-dark-color);
+}
+
+tfoot td:nth-child(even) {
+    background: var(--odd-light-color);
+}
+
+tfoot td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tfoot td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+button {
+    border: 1px solid #afafaf;
+    background-color: #d3d3d3;
+    color: #5f6269;
+    padding: 10px 45px;
 }
 
